@@ -1,4 +1,4 @@
-# 📚 Biblioteca – Dashboard de Reportes
+# Biblioteca – Dashboard de Reportes
 
 Aplicación web desarrollada con **Next.js (TypeScript)** y **PostgreSQL** que permite visualizar reportes de una biblioteca a partir de **VIEWS SQL**, cumpliendo criterios de seguridad, rendimiento y despliegue con Docker Compose.
 
@@ -11,7 +11,7 @@ paginación, filtros y buenas prácticas de arquitectura.
 
 ---
 
-## 🧱 Arquitectura
+## Arquitectura
 
 - **Frontend:** Next.js (App Router, Server Components)
 - **Base de datos:** PostgreSQL
@@ -23,7 +23,7 @@ dedicado con permisos limitados.
 
 ---
 
-## 🗄️ Base de Datos
+## Base de Datos
 
 ### Tablas
 - members
@@ -46,7 +46,7 @@ con comentarios y queries de verificación.
 
 ---
 
-## 🔐 Seguridad
+## Seguridad
 
 - Usuario de aplicación: `app_user`
 - Permisos:
@@ -61,7 +61,7 @@ SELECT * FROM books; --debe fallar
 ```
 
 
-## 📂 Estructura del proyecto
+## Estructura del proyecto
 
 ```text
 /

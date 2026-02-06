@@ -1,7 +1,3 @@
--- =====================================================
--- CREACIÓN DE ROLES Y SEGURIDAD
--- La aplicación NO se conecta como postgres
--- =====================================================
 
 -- Eliminamos el rol si ya existe (para evitar errores)
 DROP ROLE IF EXISTS app_user;

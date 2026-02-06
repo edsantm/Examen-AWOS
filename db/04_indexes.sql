@@ -1,8 +1,4 @@
--- =====================================================
--- ÍNDICES PARA MEJORAR EL RENDIMIENTO DE LOS REPORTES
--- Estos índices están pensados específicamente
--- para las VIEWS que ya creamos
--- =====================================================
+
 
 -- Índice para acelerar búsquedas por título y autor
 -- Usado en vw_most_borrowed_books (filtro por title/author)

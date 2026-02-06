@@ -24,7 +24,6 @@ CREATE TABLE books (
 );
 
 -- Copias físicas de los libros
--- Un libro puede tener varias copias
 CREATE TABLE copies (
     id SERIAL PRIMARY KEY,
     book_id INT NOT NULL REFERENCES books(id), 

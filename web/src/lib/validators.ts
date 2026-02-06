@@ -2,7 +2,6 @@ import { z } from "zod";
 
 /**
  * Validación de query params para reportes
- * Evita SQL raro, páginas negativas, etc.
  */
 export const paginationSchema = z.object({
     search: z.string().optional(),
