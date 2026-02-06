@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--bg);
+  color: var(--text-main);
+}
+
+/* Contenedor principal */
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+
+/* Header */
+.page-header {
+  margin-bottom: 40px;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--primary);
+  background: rgba(79, 70, 229, 0.1);
+  padding: 6px 12px;
+  border-radius: 999px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 12px 0 8px;
+}
+
+.subtitle {
+  color: var(--text-muted);
+  max-width: 600px;
+}
